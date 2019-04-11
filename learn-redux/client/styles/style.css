@@ -1,15 +1,17 @@
-@import '_normalize.styl'
-@import '_typography.styl'
-@import '_animations.styl'
+@import '_normalize.styl';
+@import '_typography.styl';
+@import '_animations.styl';
 
-body
-  background offwhite
+body {
+  background: offwhite;
+}
 
-.photo-grid
-  display flex
-  flex-wrap wrap
-  max-width 1200px
-  margin 0 auto
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .grid-figure
   flex-basis calc(33.333% - 4rem)
